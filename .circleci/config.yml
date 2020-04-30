@@ -2,7 +2,7 @@
     executors:
       docker-publisher:
         environment:
-          IMAGE_NAME: vale1c86/circleci
+          IMAGE_NAME: valeqc86/circleci
         docker:
           - image: circleci/buildpack-deps:stretch
     jobs:
